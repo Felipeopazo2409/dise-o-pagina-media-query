@@ -1,0 +1,109 @@
+
+@media only screen and (max-width:1024px) {
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.header{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(36, 74, 201);
+}
+.nav{
+    width: 75%;
+    display: flex;
+    justify-content: center;
+}
+.nav > ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+    
+}
+.nav > ul > li{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.nav > ul > li > a{
+    text-decoration: none;
+    color: white;
+    font-size: 27px;
+}
+.icono{
+    width: 25%;
+    display: flex;
+    justify-content: center;
+
+
+}
+.icono > img {
+    width: 100px;
+    padding-right: 50px;
+}
+.contenedor1{
+    width: 100%;
+}
+.contenedor1 > img{
+    width: 100%;
+}
+.contenedor2{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    padding-bottom: 35px;
+    align-items: center;
+    background-color: rgb(186, 240, 240);
+}
+.imagen{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25px;
+   
+}
+.imagen > img{
+    width: 370px;
+    height: 370px;
+    
+}
+.description{
+    width: 60%;
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.description h1{
+    font-size: 35px;
+    padding-left:20px;
+    padding-bottom: 40px;
+}
+.description h2{
+    padding-left: 20px;
+}
+.description p{
+    font-size: 20px;
+    padding-right: 40px;
+    padding-left: 20px;
+}
+.description a{
+    padding-top: 20px;
+    padding-left:20px;
+    color: black;
+    text-decoration: none;
+}
+
+}
